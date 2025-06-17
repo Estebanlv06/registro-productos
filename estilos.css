@@ -1,0 +1,77 @@
+body, input, select, textarea, button {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#btn-guardar {
+    background-color: #1aab8a;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.label-checkbox {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contenedor {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.fila-doble {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.fila-doble .campo {
+    flex: 1;
+}
+
+.fila-doble label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.fila-doble input,
+.fila-doble select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#titulo-formulario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenedor-boton {
+    text-align: center;
+    margin-top: 20px;
+}
