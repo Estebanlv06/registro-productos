@@ -8,12 +8,12 @@ Instalación del proyecto:
 
 
     Paso 1: Descargar el proyecto
-        Por medio de Git:
 
+        Por medio de Git:
         1. En una terminal, posicionarse (en mi caso) en C:\laragon\www.
         2. Correr los siguientes comandos (sin comillas):
-        3. 'git clone https://github.com/Estebanlv06/registro-productos.git' para clonar el repositorio.
-        4. 'cd registro-productos' para acceder al proyecto.
+            - 'git clone https://github.com/Estebanlv06/registro-productos.git' para clonar el repositorio.
+            - 'cd registro-productos' para acceder al proyecto.
 
 
     Paso 2: Importar la base de datos
@@ -40,7 +40,7 @@ Instalación del proyecto:
         En el archivo controlador.php:
         
             $host = 'localhost';
-            $db = 'nombre_base'; // Si no se cambió el nombre que viene en el script, debería llamarse 'registro_productos'
+            $db = 'nombre_de_la_base'; // Si no se cambió el nombre que viene en el script, debería llamarse 'registro_productos'
             $user = 'root';
             $pass = '';
 
