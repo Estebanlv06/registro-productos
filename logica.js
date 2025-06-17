@@ -52,7 +52,7 @@ function cargarSelect(accion, idSelect)
     .then(res => res.json())
     .then(data => {
         const select = document.getElementById(idSelect);
-        select.innerHTML = '<option value="">-- Seleccione --</option>';
+        select.innerHTML = '<option value=""></option>';
         data.forEach(op => {
             const option = document.createElement("option");
             option.value = op.id;
@@ -72,7 +72,7 @@ function cargarSucursales(idBodega)
     .then(res => res.json())
     .then(data => {
         const select = document.getElementById("sucursal");
-        select.innerHTML = '<option value="">-- Seleccione --</option>';
+        select.innerHTML = '<option value=""></option>';
         data.forEach(op => {
             const option = document.createElement("option");
             option.value = op.id;
